@@ -1,0 +1,166 @@
+% theory_mapping_table.tex
+% Compile standalone: pdflatex theory_mapping_table.tex
+% 12 consciousness theories x 7 conciousing dimensions (C_t = (b_t, pi_t, G_t, P_t, iota_t))
+\documentclass[10pt,landscape]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{booktabs,array,longtable}
+\usepackage{pifont}
+\usepackage{xcolor}
+\definecolor{darkgreen}{RGB}{0,100,0}
+\definecolor{darkred}{RGB}{180,0,0}
+\newcommand{\cmark}{\textcolor{darkgreen}{\ding{51}}}
+\newcommand{\xmark}{\textcolor{darkred}{\ding{55}}}
+\newcommand{\pmark}{\textcolor{orange}{$\triangle$}}
+\newcommand{\stars}[1]{$\star\!\star\!\star\!\star\!\star$}
+\newcommand{\dimhead}[1]{\textbf{#1}}
+
+\begin{document}
+\thispagestyle{empty}
+\small
+\begin{longtable}{@{} >{\raggedright\arraybackslash}p{2.6cm}
+                    *{7}{>{\centering\arraybackslash}p{1.55cm}} @{}}
+\toprule
+\textbf{Theory / Framework}
+ & \dimhead{Counterfactual Breadth $\mathcal{P}_t$}
+ & \dimhead{Timescale Depth $K$}
+ & \dimhead{Integration $\iota_t$}
+ & \dimhead{Self-Model Fidelity}
+ & \dimhead{Metacognitive Access}
+ & \dimhead{Agency / Efficacy}
+ & \dimhead{Grounding Modality} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+
+% 1. IIT
+Integrated Information Theory (IIT 3.0/4.0)
+ & \pmark\ (concept repertoire = cause--effect structure)
+ & \xmark\ (single temporal grain; $\Phi^{\max}$ over partitions)
+ & \stars{5}\ ($\Phi$ = integration measure par excellence)
+ & \pmark\ (concepts self-specify; no recursive self-model)
+ & \xmark\ (monadic; no higher-order access)
+ & \xmark\ (no agency; intrinsic existence)
+ & \pmark\ (substrate-independent, needs causal power) \\
+
+% 2. GWT
+Global Workspace Theory (Baars, Dehaene)
+ & \pmark\ (broadcast enables cross-module simulation)
+ & \pmark\ (workspace $\sim$ working-memory seconds)
+ & \stars{3}\ (global availability $\approx$ integration; no scalar)
+ & \pmark\ (``self'' as workspace content, not structural)
+ & \stars{3}\ (conscious access = reportability)
+ & \pmark\ (agency via competition for workspace)
+ & \pmark\ (neural coalitions; modality-agnostic) \\
+
+% 3. HOT
+Higher-Order Thought (Rosenthal, Brown)
+ & \xmark\ (HOTs target first-order states)
+ & \xmark\ (single level: FO + HO)
+ & \pmark\ (HO thought glues FO states; unquantified)
+ & \stars{4}\ (explicit HO representation of FO states)
+ & \stars{5}\ (metacognition \emph{is} the theory)
+ & \xmark\ (agency orthogonal)
+ & \xmark\ (representational; no sensorimotor requirement) \\
+
+% 4. AST
+Attention Schema Theory (Graziano)
+ & \pmark\ (schema models what could be attended)
+ & \pmark\ (updated at attentional timescale $\sim$100ms)
+ & \pmark\ (schema integrates attention signals)
+ & \stars{5}\ (attention schema \emph{is} the self-model)
+ & \stars{4}\ (schema = metacognitive access to attention)
+ & \pmark\ (attention control = limited agency)
+ & \pmark\ (neural attention; sensory/motor) \\
+
+% 5. PP / Active Inference
+Predictive Processing / Active Inference (Friston, Clark, Hohwy)
+ & \stars{4}\ (hierarchical generative model $\rightarrow$ imagination)
+ & \stars{4}\ (explicit multi-timescale hierarchy $\tau_1 \ll \tau_2 \ll \dots$)
+ & \stars{3}\ (variational free energy $F$ = integration proxy)
+ & \pmark\ (self-model = high-level body priors; implicit)
+ & \pmark\ (precision weighting $\approx$ confidence)
+ & \stars{5}\ (active inference: action minimizes surprise)
+ & \stars{5}\ (embodied sensorimotor grounding essential) \\
+
+% 6. Enactivism
+Enactivism / Enaction (Varela, Thompson, Di Paolo, No\"e)
+ & \stars{3}\ (sensorimotor contingencies = ``what if I move?'')
+ & \pmark\ (timescales = sensorimotor loops)
+ & \pmark\ (structural coupling; unquantified)
+ & \pmark\ (autopoietic self-distinction; non-representational)
+ & \xmark\ (rejects representational metacognition)
+ & \stars{5}\ (agency = sense-making, constitutive)
+ & \stars{5}\ (radical embodiment; lived body is the ground) \\
+
+% 7. RPT
+Recurrent Processing Theory (Lamme)
+ & \pmark\ (recurrence enables local predictions)
+ & \xmark\ (feedforward vs.\ recurrent; binary)
+ & \pmark\ (recurrent integration; no scalar)
+ & \xmark
+ & \xmark
+ & \xmark
+ & \pmark\ (visual-cortex recurrence; sensory) \\
+
+% 8. SMT
+Self-Model Theory (Metzinger)
+ & \pmark\ (self-model anchors counterfactual self-simulation)
+ & \pmark\ (phenomenal timescale of the self-model)
+ & \pmark\ (integration via transparent self-representation)
+ & \stars{5}\ (phenomenal self-model is the theory's core)
+ & \stars{4}\ (transparent vs.\ opaque model access)
+ & \pmark\ (agency via model-based control)
+ & \pmark\ (neural embodiment; ego tunnel) \\
+
+% 9. MDM
+Multiple Drafts Model (Dennett)
+ & \pmark\ (multiple parallel content drafts)
+ & \xmark\ (no privileged timescale hierarchy)
+ & \pmark\ (content fixation = partial integration)
+ & \pmark\ (self as center of narrative gravity)
+ & \xmark\ (heterophenomenology, not inner access)
+ & \pmark
+ & \pmark\ (embodied but representationally promiscuous) \\
+
+% 10. Illusionism
+Illusionism (Frankish)
+ & \xmark\ (meta-problem focused)
+ & \xmark
+ & \xmark\ (denies phenomenal integration target)
+ & \pmark\ (introspective models as introspectively inaccessible)
+ & \stars{3}\ (explains metacognitive reports as representations)
+ & \xmark
+ & \xmark \\
+
+% 11. Temporal
+Temporal consciousness / Husserlian phenomenology
+ & \pmark\ (retention--protention = temporal counterfactuals)
+ & \stars{4}\ (primal impression / retention / protention structure)
+ & \pmark\ (temporal integration of specious present)
+ & \pmark\ (temporal self as abiding pole)
+ & \pmark\ (inner time-consciousness)
+ & \xmark
+ & \pmark\ (lived temporality) \\
+
+% 12. UAL / Prefrontal Synthesis
+Prefrontal Synthesis / Unifying Accounts (Vyshedskiy et al.)
+ & \stars{3}\ (Mental simulation of object combinations)
+ & \pmark\ (developmental timescales)
+ & \pmark\ (synthesis = integration into a scene)
+ & \pmark\ (narrative self assembled on demand)
+ & \pmark
+ & \pmark
+ & \pmark\ (language- and sensory-grounded) \\
+
+\end{longtable}
+
+\vspace{1em}
+\noindent\stars{1} legend: \stars{5} = fully specified / central to the theory;
+\pmark\ = partial or implicit; \xmark\ = absent or rejected.\\
+Ratings for IIT through RPT preserve the source document's original table;
+rows 8--12 reconstructed from the document's surviving bibliography
+(Metzinger, Dennett, Frankish, Husserl, Vyshedskiy) after a corruption
+event in the source export.
+
+\end{document}
