@@ -46,6 +46,10 @@ conciousing/
 │   ├── 02-conciousing-in-ai.md                   Five real systems profiled on C_t dimensions
 │   │                                             (DreamerV3, M2PA/HMAT/HELM, Pathak self-aware WM,
 │   │                                             Hierarchical Active Inference, ReAcTree/PMCoder)
+│   ├── 03-the-complete-philosophy.md             The entire philosophy: theses, the etymology,
+│   │                                             stress-test answers, Substrate Fallacy, twelve
+│   │                                             points, measurement program, three proofs,
+│   │                                             lexicon verdicts, and open frontiers
 │   ├── rfc-0003-multi-agent-conciousing-topology.md   Collective conciousing C_t^{(1…N)}
 │   └── roadmap-options.md                        Next-artifact menu (Gym, WASM probe, TLA+ export…)
 │
